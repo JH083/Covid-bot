@@ -46,9 +46,5 @@ async def on_message(message):
         status = get_state()
         await message.channel.send(status)
 
-    if msg.startswith('!news'):
-        news = get_news()
-        await message.channel.send(news)
-
 
 bot.run('TOKEN')
