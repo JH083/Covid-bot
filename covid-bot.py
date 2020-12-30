@@ -51,4 +51,4 @@ async def on_message(message):
         await message.channel.send(news)
 
 
-bot.run('NzkzNjMwNzcxOTk0ODIwNjE4.X-vEQA.csT6mm-54UXB00En6LQme9vOTbg')
+bot.run('TOKEN')
